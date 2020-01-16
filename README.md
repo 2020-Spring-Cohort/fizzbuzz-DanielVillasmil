@@ -20,4 +20,4 @@ There are some variations that are good to implement once you have these basic r
 - Practice changing requirements:
   - Change the number associated with Fizz to 4 or another value.
   - Add a third word, "BANG" for multiples of 11.
-  - Implement restrictions on the method input, for example limit the integers to positive integers.
+  - Implement restrictions on the method input, for example limit the integers to positive integers.# FizzBuzzAPP
