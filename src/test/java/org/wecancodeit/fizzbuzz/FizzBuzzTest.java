@@ -7,12 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    public void oneShouldSayOne() {
-        // Arrange
+    public void tneShouldSayOne() {
         FizzBuzz underTest = new FizzBuzz();
-        //Action
         String result = underTest.interpret(1);
-        //Assertion
         assertEquals("1", result);
     }
 
@@ -30,43 +27,18 @@ public class FizzBuzzTest {
         assertEquals("Fizz", result);
 
     }
-
     @Test
-    public void fourShouldSayFour() {
-        FizzBuzz underTest = new FizzBuzz();
-        String result = underTest.interpret(4);
-        assertEquals("4", result);
-
-    }
-
-    @Test
-    public void fiveShouldSayBuzz() {
+    public void fiveShouldSayBuzz(){
         FizzBuzz underTest = new FizzBuzz();
         String result = underTest.interpret(5);
         assertEquals("Buzz", result);
     }
-
     @Test
-    public void sixShouldSayFizz() {
+    public void elevenShouldSayBang(){
         FizzBuzz underTest = new FizzBuzz();
-        String result = underTest.interpret(6);
-        assertEquals("Fizz", result);
+        String result = underTest.interpret(11);
+        assertEquals("BANG", result);
     }
-
-    @Test
-    public void nineShouldSayFizz() {
-        FizzBuzz underTest = new FizzBuzz();
-        String result = underTest.interpret(9);
-        assertEquals("Fizz", result);
-    }
-
-    @Test
-    public void tenShouldSayBuzz() {
-        FizzBuzz underTest = new FizzBuzz();
-        String result = underTest.interpret(10);
-        assertEquals("Buzz", result);
-    }
-
     @Test
     public void fifteenShouldSayFizzBuzz() {
         FizzBuzz underTest = new FizzBuzz();
@@ -74,10 +46,5 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", result);
     }
 
-    @Test
-    public void thirtyShouldSayFizzBuzz() {
-        FizzBuzz underTest = new FizzBuzz();
-        String result = underTest.interpret(30);
-        assertEquals("FizzBuzz", result);
-    }
 }
+

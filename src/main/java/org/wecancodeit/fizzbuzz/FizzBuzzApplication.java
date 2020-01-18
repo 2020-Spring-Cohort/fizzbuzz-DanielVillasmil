@@ -3,9 +3,11 @@ package org.wecancodeit.fizzbuzz;
 public class FizzBuzzApplication {
     static FizzBuzz game = new FizzBuzz();
 
-    public static void main (String[] args) {
-        for(int i = 1; i < 100; i++){
+    public static void main(String[] args) {
+        for (int i =1 ; i < 100; i++) {
             System.out.println(game.interpret(i));
         }
     }
+
 }
+
